@@ -10,7 +10,7 @@ import { Octicons, MaterialCommunityIcons } from "@expo/vector-icons";
 
 import NotFoundScreen from "../screens/NotFoundScreen";
 import { RootStackParamList } from "../types";
-import BottomTabNavigator from "./BottomTabNavigator";
+import MainTabNavigator from "./MainTabNavigator";
 import LinkingConfiguration from "./LinkingConfiguration";
 import Colors from "../constants/Colors";
 
@@ -37,6 +37,8 @@ function RootNavigator() {
       screenOptions={{
         headerStyle: {
           backgroundColor: Colors.light.tint,
+          shadowOpacity: 0,
+          elevation: 0,
         },
         headerTintColor: Colors.light.background,
         headerTitleAlign: "left",
@@ -67,7 +69,7 @@ function RootNavigator() {
             </View>
           ),
         }}
-        component={BottomTabNavigator}
+        component={MainTabNavigator}
       />
       <Stack.Screen
         name="NotFound"

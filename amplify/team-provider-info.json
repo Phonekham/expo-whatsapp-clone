@@ -10,6 +10,13 @@
       "StackName": "amplify-expowhatsappclone-dev-94854",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:630165435469:stack/amplify-expowhatsappclone-dev-94854/f6e4fd20-1347-11eb-9f51-0a475a749b56",
       "AmplifyAppId": "d2l147td6mxkwz"
+    },
+    "categories": {
+      "auth": {
+        "expowhatsappclone5d776d27": {
+          "hostedUIProviderCreds": "[]"
+        }
+      }
     }
   }
 }
